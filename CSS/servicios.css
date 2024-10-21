@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8d0000;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .menu a {
+    color: rgb(255, 0, 0);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 40px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    color: #000000;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.servicios-lista {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.servicio {
+    background-color: rgb(236, 9, 9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.servicio h2 {
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.servicio p {
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #070000;
+    color: rgb(255, 0, 0);
+}

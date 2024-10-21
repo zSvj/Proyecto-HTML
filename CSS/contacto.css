@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8d0000; /* Color de fondo */
+}
+
+header {
+    background-color: #000000; /* Color de fondo del header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .menu a {
+    color: rgb(255, 0, 0); /* Color de los enlaces */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 40px;
+}
+
+.contacto {
+    text-align: center;
+}
+
+.contacto h1 {
+    font-size: 2em; /* Tamaño de fuente del título */
+    color: #000000; /* Color del texto */
+}
+
+.contacto p {
+    font-size: 1.2em; /* Tamaño de fuente del texto */
+    color: #000000; /* Color del texto */
+}
+
+form {
+    display: inline-block; /* Para centrar el formulario */
+    margin-top: 20px;
+}
+
+label {
+    display: block; /* Cada etiqueta en una nueva línea */
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 300px; /* Ancho de los campos */
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgb(255, 0, 0); /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+}
+
+button:hover {
+    background-color: rgb(200, 0, 0); /* Color al pasar el cursor */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #070000; /* Color de fondo del footer */
+    color: rgb(255, 0, 0); /* Color del texto del footer */
+}
